@@ -1,0 +1,160 @@
+!SESSION 2018-01-15 10:06:14.221 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/xingwenfeng/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/xingwenfeng/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-01-15 10:06:42.701
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2018-01-15 10:18:51.670
+!MESSAGE An error occurred while committing the engine session for profile: _Users_xingwenfeng_eclipse_java-oxygen_Eclipse.app_Contents_Eclipse.
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2018-01-15 10:18:51.670
+!MESSAGE An error occurred while undoing the org.eclipse.equinox.internal.p2.engine.phases.Collect phase.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.getProfileDataDirectory(EngineSession.java:78)
+	at org.eclipse.equinox.internal.p2.engine.Phase.prePerform(Phase.java:114)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollBackPhase(EngineSession.java:230)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:179)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:86)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:45)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:175)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2018-01-15 10:18:56.240 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/xingwenfeng/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/xingwenfeng/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-01-15 10:19:12.003
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2018-02-03 20:31:31.618 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/xingwenfeng/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/xingwenfeng/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-02-03 20:31:51.067
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2018-02-03 20:39:25.693 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/xingwenfeng/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/xingwenfeng/Documents/java/ -product org.eclipse.epp.package.java.product -keyring /Users/xingwenfeng/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-02-03 20:39:36.609
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-03 20:49:24.820
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-03 20:49:24.846
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-03 20:50:49.333
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-03 20:50:49.335
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-03 20:50:55.702
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-03 20:50:55.704
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.eclipse.jdt.launching 4 150 2018-02-03 20:51:27.267
+!MESSAGE The archive: /kotlin1/kotlin_bin which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2018-02-03 20:52:22.460
+!MESSAGE The archive: /kotlin1/kotlin_bin which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-02-03 20:53:24.678
+!MESSAGE Connection to http://mirror.cc.vt.edu/pub/eclipse/oomph/drops/milestone/S20180130-044656-1.9.0-M3/features/org.eclipse.oomph.setup.core_1.9.0.v20171222-1315.jar failed on No route to host (connect failed). Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: No route to host (connect failed)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jdt.launching 4 150 2018-02-03 20:53:28.259
+!MESSAGE The archive: /kotlin1/kotlin_bin which is referenced by the classpath, does not exist.
+!SESSION 2018-02-03 20:53:40.782 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/xingwenfeng/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data file:/Users/xingwenfeng/Documents/java/ -product org.eclipse.epp.package.java.product -keyring /Users/xingwenfeng/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-02-03 20:53:51.391
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jdt.launching 4 150 2018-02-03 20:54:14.217
+!MESSAGE The archive: /kotlin1/kotlin_bin which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2018-02-03 20:54:55.711
+!MESSAGE The archive: /kotlin1/kotlin_bin which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2018-02-03 20:55:28.119
+!MESSAGE The archive: /kotlin1/kotlin_bin which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2018-02-03 20:56:04.842
+!MESSAGE The archive: /kotlin1/kotlin_bin which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2018-02-03 20:57:02.024
+!MESSAGE The archive: /kotlin1/kotlin_bin which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2018-02-03 20:59:31.899
+!MESSAGE The archive: /kotlin1/kotlin_bin which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2018-02-03 21:00:35.985
+!MESSAGE The archive: /kotlin1/kotlin_bin which is referenced by the classpath, does not exist.
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-03 21:07:26.172
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-03 21:07:26.176
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.eclipse.jdt.launching 4 150 2018-02-03 21:07:32.972
+!MESSAGE The archive: /HelloWorld/kotlin_bin which is referenced by the classpath, does not exist.
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2018-02-03 21:08:04.540
+!MESSAGE Can't find jar: /Users/xingwenfeng/Documents/kt/src/HelloWorld.kt
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-02-03 21:08:04.728
+!MESSAGE Invalid ZIP archive: src/HelloWorld.kt [in HelloWorld]
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-02-03 21:08:04.789
+!MESSAGE Invalid ZIP archive: src/HelloWorld.kt [in HelloWorld]
+
+!ENTRY org.eclipse.jdt.launching 4 150 2018-02-03 21:08:23.863
+!MESSAGE The archive: /HelloWorld/kotlin_bin which is referenced by the classpath, does not exist.
